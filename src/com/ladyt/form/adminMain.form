@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Admin Page"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="menu1" min="-2" pref="82" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="subMenuPanel1" min="-2" pref="131" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="mainForm" pref="756" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="menu1" alignment="0" pref="640" max="32767" attributes="0"/>
+          <Component id="subMenuPanel1" alignment="0" max="32767" attributes="0"/>
+          <Component id="mainForm" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="com.ladyt.menu.Menu" name="menu1">
+      <Properties>
+        <Property name="mainForm" type="com.ladyt.menu.MainForm" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="mainForm"/>
+        </Property>
+        <Property name="subMenuPanel" type="com.ladyt.menu.SubMenuPanel" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="subMenuPanel1"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/ladyt/form/logo_1.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.ladyt.menu.MenuItem" name="menuItem1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/ladyt/icon/im3 - Copy.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem1"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="com/ladyt/icon/im3.png"/>
+                <StringItem index="1" value="com/ladyt/icon/im4.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Add"/>
+                <StringItem index="1" value="Manage"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.ladyt.menu.MenuItem" name="menuItem2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/ladyt/icon/im2 - Copy.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem2"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="com/ladyt/icon/im5.png"/>
+                <StringItem index="1" value="com/ladyt/icon/im3.png"/>
+                <StringItem index="2" value="com/ladyt/icon/login - Copy.png"/>
+                <StringItem index="3" value=" "/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Attendance"/>
+                <StringItem index="1" value="View"/>
+                <StringItem index="2" value="Login Details"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.ladyt.menu.MenuItem" name="menuItem3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/ladyt/icon/im5 - Copy.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem3"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="com/ladyt/icon/im1.png"/>
+                <StringItem index="1" value="com/ladyt/icon/im2.png"/>
+                <StringItem index="2" value="com/ladyt/icon/paylogo.png"/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Leave Request"/>
+                <StringItem index="1" value="Leave Response"/>
+                <StringItem index="2" value="All Leaves"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.ladyt.menu.MenuItem" name="menuItem4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/ladyt/icon/im6 - Copy.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem4"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="com/ladyt/icon/im6.png"/>
+                <StringItem index="1" value="com/ladyt/icon/im8.png"/>
+                <StringItem index="2" value=" "/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Calculate Salary"/>
+                <StringItem index="1" value="Paid Salary"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="com.ladyt.menu.MenuItem" name="menuItem5">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/ladyt/icon/logout.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="menuItem5"/>
+            <Property name="menuIcon" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="com/ladyt/icon/2im1.png"/>
+                <StringItem index="1" value="com/ladyt/icon/logout - Copy.png"/>
+                <StringItem index="2" value=" "/>
+              </StringArray>
+            </Property>
+            <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Remove Staff"/>
+                <StringItem index="1" value="Logout"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="com.ladyt.menu.SubMenuPanel" name="subMenuPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder bottom="1" left="1" right="1" top="40"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Container>
+    <Container class="com.ladyt.menu.MainForm" name="mainForm">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+    </Container>
+  </SubComponents>
+</Form>

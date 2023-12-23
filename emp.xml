@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Lady T\Documents\NetBeansProjects\Employee_Payroll_Management_System\dist\Employee_Payroll_Management_System.jar</jar>
+  <outfile>C:\Users\Lady T\Documents\NetBeansProjects\Employee_Payroll_Management_System\employee_payroll.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Lady T\Documents\NetBeansProjects\Employee_Payroll_Management_System\src\com\ladyt\icon\logo_ico.ico</icon>
+  <classPath>
+    <mainClass>com.ladyt.form.Login</mainClass>
+    <cp>lib/TimingFramework-0.55.jar</cp>
+    <cp>lib/flatlaf-2.4.jar</cp>
+    <cp>lib/flatlaf-3.1.1.jar</cp>
+    <cp>lib/flatlaf-extras-2.4.jar</cp>
+    <cp>lib/miglayout-4.0.jar</cp>
+    <cp>lib/jdatepicker-2.0.3.jar</cp>
+    <cp>lib/jcalendar-1.4.jar</cp>
+    <cp>lib/mysql-connector-j-8.2.0.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
